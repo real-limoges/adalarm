@@ -1,0 +1,14 @@
+
+# docs/ is a private notes tree; only docs/reference/ is committed.
+# This also covers docs/html/, the generated html mirror.
+docs/*
+!docs/reference/
+
+# generated html, rendered from the markdown by notes-html --mirror
+html/
+
+# Alire and GPRbuild output
+/obj/
+/lib/
+/alire/
+/config/

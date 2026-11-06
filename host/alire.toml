@@ -1,0 +1,20 @@
+name = "adalarm_host"
+description = "Host test runner for the adalarm library"
+version = "0.1.0-dev"
+
+authors = ["Real Limoges"]
+maintainers = ["Real Limoges <example@example.com>"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = []
+
+executables = ["adalarm_host"]
+
+[build-profiles]
+"*" = "development"
+
+[[depends-on]]
+adalarm = "*"
+
+[[pins]]
+adalarm = { path='..' }

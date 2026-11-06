@@ -1,0 +1,9 @@
+name = "adalarm"
+description = ""
+version = "0.1.0-dev"
+
+authors = ["Real Limoges"]
+maintainers = ["Real Limoges <example@example.com>"]
+licenses = "MIT"
+website = ""
+tags = []
